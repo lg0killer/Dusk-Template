@@ -66,11 +66,6 @@ The .env file contains all of the variables that might change swapping from diff
 
 Variables to take note of:
 * APP_URL           : This variable is used to define the path to the Loadbalancer application
-* Balancer_Address  : This variable is used to define the path to the Loadbalancer backend/frontend services (HAProxy/Nginx)
-* webserver1_ip     : The IP of the testing server used during the connection tests
-* webserver1_port   : The Port of the testing server used during the connection tests
-* LicenseUsername   : By default not included. Needs to be added by the user for security purposes
-* LicensePassword   : By default not included. Needs to be added by the user for security purposes
 
 # Test Cases
 The test cases are stored in tests/Browser/ with a suffix of Test.php. These items are executed in alphabetical order or numerical (whichever provided first)
